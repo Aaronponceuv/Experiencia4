@@ -1,0 +1,33 @@
+[13-Dec-2016 14:00:51 UTC] PHP Warning:  include(../Config/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php on line 2
+[13-Dec-2016 14:00:51 UTC] PHP Stack trace:
+[13-Dec-2016 14:00:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php:0
+[13-Dec-2016 14:00:51 UTC] PHP Warning:  include(): Failed opening '../Config/config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php on line 2
+[13-Dec-2016 14:00:51 UTC] PHP Stack trace:
+[13-Dec-2016 14:00:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php:0
+[13-Dec-2016 14:00:51 UTC] PHP Warning:  include(crearselect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php on line 2
+[13-Dec-2016 14:00:51 UTC] PHP Stack trace:
+[13-Dec-2016 14:00:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php:0
+[13-Dec-2016 14:00:51 UTC] PHP Warning:  include(): Failed opening 'crearselect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php on line 2
+[13-Dec-2016 14:00:51 UTC] PHP Stack trace:
+[13-Dec-2016 14:00:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php:0
+[13-Dec-2016 14:01:54 UTC] PHP Warning:  include(../Config/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php on line 2
+[13-Dec-2016 14:01:54 UTC] PHP Stack trace:
+[13-Dec-2016 14:01:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php:0
+[13-Dec-2016 14:01:54 UTC] PHP Warning:  include(): Failed opening '../Config/config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php on line 2
+[13-Dec-2016 14:01:54 UTC] PHP Stack trace:
+[13-Dec-2016 14:01:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php:0
+[13-Dec-2016 14:01:54 UTC] PHP Warning:  include(crearselect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php on line 2
+[13-Dec-2016 14:01:54 UTC] PHP Stack trace:
+[13-Dec-2016 14:01:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php:0
+[13-Dec-2016 14:01:54 UTC] PHP Warning:  include(): Failed opening 'crearselect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php on line 2
+[13-Dec-2016 14:01:54 UTC] PHP Stack trace:
+[13-Dec-2016 14:01:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php:0
+[13-Dec-2016 16:13:00 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/ubuntu/workspace/Experiencia4/CodeIgniter/application/views/formulario.php on line 57
+[13-Dec-2016 16:13:00 UTC] PHP Stack trace:
+[13-Dec-2016 16:13:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php:0
+[13-Dec-2016 16:13:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/Experiencia4/CodeIgniter/index.php:315
+[13-Dec-2016 16:13:00 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Experiencia4/CodeIgniter/system/core/CodeIgniter.php:529}() /home/ubuntu/workspace/Experiencia4/CodeIgniter/system/core/CodeIgniter.php:529
+[13-Dec-2016 16:13:00 UTC] PHP   4. Welcome->index() /home/ubuntu/workspace/Experiencia4/CodeIgniter/system/core/CodeIgniter.php:529
+[13-Dec-2016 16:13:00 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/Experiencia4/CodeIgniter/application/controllers/Welcome.php:33
+[13-Dec-2016 16:13:00 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/Experiencia4/CodeIgniter/system/core/Loader.php:489
+[13-Dec-2016 16:13:00 UTC] PHP   7. include() /home/ubuntu/workspace/Experiencia4/CodeIgniter/system/core/Loader.php:979
